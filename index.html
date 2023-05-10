@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+      <head>
+            <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+            <div class="main-body-container">
+                <div class="home-container">
+                    <h2>HOME</h2>
+                    <div class="home-score-container">0</div>
+                    <div class="bnt-container">
+                        <button class="increment-btn" onclick="incrementHomePlusOne()">+1</button>
+                        <button class="increment-btn" onclick="incrementHomePlusTwo()">+2</button>
+                        <button class="increment-btn" onclick="incrementHomePlusThree()">+3</button>
+                        <button class="increment-btn" onclick="incrementHomePlusFour()">+4</button>
+                        <button class="reset-btn" onclick="resetHomeBoard()">Reset</button>
+                    </div>
+                </div>
+                 <div class="away-container">
+                    <h2>AWAY</h2>
+                    <div class="away-score-container">0</div>
+                    <div class="bnt-container">
+                        <button class="increment-btn" onclick="incrementAwayPlusOne()">+1</button>
+                        <button class="increment-btn" onclick="incrementAwayPlusTwo()">+2</button>
+                        <button class="increment-btn" onclick="incrementAwayPlusThree()">+3</button>
+                        <button class="increment-btn" onclick="incrementAwayPlusFour()">+4</button>
+                        <button class="reset-btn" onclick="resetAwayBoard()">Reset</button>
+                   </div>
+                </div>
+            </div> 
+      <script src="javascript.js"></script>            
+      </body>
+</html>

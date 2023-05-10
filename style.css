@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@font-face {
+    font-family: led;
+    src: url(led.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(red, orange);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 1000px 0;
+    font-family: 'Sigmar', cursive;
+  }
+  
+  .main-body-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    height: 350px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: #e76f51;
+  }
+  
+  .home-score-container, .away-score-container {
+    /* border: 5px solid black; */
+    width: 170px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: led;
+    font-size: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin: 0px;
+    font-size: 52px;
+  }
+  
+  button {
+    margin-top: 7px;
+  }
+  
+  .bnt-container {
+    display: block;
+    width: 170px;
+    margin: 0;
+  }
+  
+  .reset-btn {
+    padding: 8px 60px;
+  }
+  
+  .increment-btn {
+    padding: 5px 30px;
+  }
+
+  .reset-btn, .increment-btn {
+    border-radius: 5px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+.increment-btn:hover {
+    background: lightgrey;
+  }
+
+.reset-btn:hover {
+    background: red;
+}
+
+  .reset-btn:active, .increment-btn:active {
+    transform: translateY(4px);
+  }
+
+.home-container, .away-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
